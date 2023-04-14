@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Post</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   
+   <div class="header">
+       <div class="container">
+          <div class="navbar">
+              <div class="logo">
+                  <a href="index.html"><img src=img/logo.jpg ></a>
+              </div>
+              <nav>
+               <ul id="MenuItems">
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="About.html">Services</a></li>
+                   <li><a href="products.html">Products</a></li>
+                   <li><a href="contact.html">Contact</a></li>
+                   <li><a href="D/registration.php">Account</a>
+                    <ul>
+                        <li><a href="registration.html">Register</a></li>
+                        <li><a href="Alogin.html">Admin Login</a></li>
+                        <li><a href="login.html">User Login</a></li>
+
+                    </ul>
+                   </li>
+               </ul>
+              </nav>
+              <img src="img/menu.png" onclick="menutoggle()" class="menu-icon">
+          </div>
+           <div class="row">
+                <div class="col-2">
+
+                    <h1>Give Your Postal experience<br>A New world!</h1>
+                    <p>Our aim is to make connection that matters to every australian.</p>
+                    <a href="registration.php" class="btn">Register Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="img/11.PNG">
+                </div>
+               
+           </div>
+           
+       </div>
+       </div>
+<!------------------ vlaues --------------->
+<h2>Our values</h2>     
+<div class="values">
+         <div class="small-container">
+           <div class="row">
+               <div class="col-3">
+                   <img src="img/gs.PNG">
+               </div> 
+               <div class="col-3">
+                  <img src="img/fd.PNG">
+               </div> 
+               <div class="col-3">
+                   <img src="img/aw.PNG">
+               </div> 
+           </div>
+       </div>
+     </div>
+       
+   
+<!----------testimonial--------------->   
+<h2>Testimonial</h2>
+   <div class="testimonial">
+       <div class="small-container">
+       <div class="row">
+           <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                      <p>Thank you E-Post for working so hard during covid.</p>
+                      <div class="rating">
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star-o"></i>
+                       </div>
+                       <img src="img/r1.PNG">
+                       <h3>Scott Morission</h3>
+           </div>
+            <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                      <p>Great communication with updates through email and text messages. Very happy with service !!! Thanks Team</p>
+                      <div class="rating">
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star-o"></i>
+                       </div>
+                       <img src="img/r2.PNG">
+                       <h3>Cobby smulders</h3>
+           </div>
+            <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                      <p>great services with excellent security. Really proud of what E-post is doing.</p>
+                      <div class="rating">
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star-o"></i>
+                       </div>
+                       <img src="img/r3.PNG">
+                       <h3>Johny Depp</h3>
+           </div>
+       </div>
+       </div>
+   </div>
+
+<!----------Footer---------------> 
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col1">
+               <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="img/play-store.png">
+                    <img src="img/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col2">
+               <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter<li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+
+
+<!-------------js for toggle menu-------------->
+
+<script>
+    
+    var MenuItems = document.getElementById("MenuItems");
+    
+    MenuItems.style.maxHeight = "0px";
+    
+    function menutoggle()
+    {
+        if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }else
+            {
+                MenuItems.style.maxHeight = "0px"
+            } 
+    }
+    
+</script>
+
+
+
+</body>
+</html>
+
